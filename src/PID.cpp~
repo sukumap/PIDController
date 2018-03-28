@@ -48,7 +48,7 @@ double PID::TotalError() {
 }
 
 double PID::TotalThrotError() {
-  return abs(K_pthrot*p_error) + abs (K_ithrot*i_error) + abs (K_dthrot*d_error);
+  return K_pthrot*p_error + K_ithrot*i_error + K_dthrot*d_error;
   //cout << Kp*p_error;
   //return Kp*p_error;
 }

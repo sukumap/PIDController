@@ -10,6 +10,9 @@ public:
   double i_error;
   double d_error;
 
+  double p_throterror;
+  double i_throterror;
+  double d_throterror;
 
   /*
   * Coefficients

@@ -65,7 +65,7 @@ int main(int argc, char *argv[])
     p_error = -0.15; 
     d_th_error = -0.3;
     i_th_error = 0;
-    p_th_error = -0.05;
+    p_th_error = -0.1;
     throttle_reference = 0.3;   
   }
   pid.Init(p_error, i_error,d_error);
